@@ -1,24 +1,16 @@
 # vue-invoice
 
-## Project setup
-```
-npm install
-```
+Краткое описание приложения
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Компоненты
 
-### Compiles and minifies for production
-```
-npm run build
-```
+// InvoiceModal - компонент-форма для создания нового счёта
+// MyModal - модальное окошко для подтверждения закрытия формы
+// MyLoading - компонент загрузки перед отправкой формы
+// MyNavigation - Компонент Header
+// MyInvoice - компонент отдельно-взятого счёта
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Проект создан с использованием VueX VueRouter а также Firebase(Firestore) для хранения данных
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+// Для работы с VueX использовались хуки mapState, mapActions, mapMutations
+// Основной функционал запечатан в store
